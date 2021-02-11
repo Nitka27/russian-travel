@@ -1,0 +1,32 @@
+.footer__links {
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    column-gap: 18px;
+    font-size: 16px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__links {
+        min-width: 50px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .footer__links {
+        max-width: calc(100% - 48px);
+        grid-template-columns: calc(100% - 134px);
+        row-gap: 24px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+    .footer__links {
+        grid-template-columns: 186px;
+        grid-template-rows: repeat(5, 24px);
+        row-gap: 32px;
+        font-size: 2em;
+    }
+}

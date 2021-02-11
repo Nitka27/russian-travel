@@ -1,0 +1,12 @@
+.lead__image {
+    max-width: 100%;
+    z-index: 2;
+    padding-top: 56px;
+    object-fit: cover;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .lead__image {
+        padding-top: 40px;
+    }
+}
