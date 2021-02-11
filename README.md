@@ -10,4 +10,5 @@ ____
 Для контента были применены flex, grid.
 Для адаптивности применяла: медиазапросы, minmax(), max-content.
 
-https://nitka27.github.io/russian-travel/index.html# russian-travel
+https://nitka27.github.io/russian-travel/index.html
+# russian-travel
